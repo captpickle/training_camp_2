@@ -47,8 +47,6 @@ contract CounterProxy  {
     constructor() {
     }
 
-
-
     function _delegate(address _implementation) internal virtual {
         assembly {
             // Copy msg.data. We take full control of memory in this inline assembly
